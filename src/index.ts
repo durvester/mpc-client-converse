@@ -275,7 +275,7 @@ const client = new ConverseMcpClient(modelId)
 
 async function main() {
     try {
-        await client.connectToMcpServer('/Users/m858450/Documents/mcp-scheduler-bot/build/index.js')
+        await client.connectToMcpServer('/Users/{path}/build/index.js')
         await client.chat()
     } catch (e) {
         console.error("Unhandled error in main execution:", e)
